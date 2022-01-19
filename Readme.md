@@ -44,10 +44,34 @@
 
 3. 有序引用
 
+## Markdown 区块引用效果
+
 > 第一层引用
 >> 第二层引用
 >>> 第三层引用
 
+## Markdown 插入代码块
+
+```c
+	#include<stdio.h>
+
+	int main()
+	{
+		printf(" C output..\n");
+		return 0;
+	}
+
+```
+
+```cpp
+	#include<iostream>
+	using namespace std;
+
+	int main()
+	{
+		cout<<"C++ output"<<endl;
+	}
+```
 
 
 
